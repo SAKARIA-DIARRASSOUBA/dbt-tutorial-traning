@@ -1,0 +1,56 @@
+[0m15:01:20.346759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa55aa294e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5586b7a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5586b7a00>]}
+
+
+============================== 15:01:20.350854 | 881fc6ca-475c-4d28-aaf4-02901ca3f902 ==============================
+[0m15:01:20.350854 [info ] [MainThread]: Running with dbt=1.6.18
+[0m15:01:20.352263 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/zakk/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt deps', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:01:20.354996 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /mnt/c/Users/a850769/OneDrive - Eviden/Formation/data_engineer/DBT-turorial/dbt-tutorial-traning/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:01:20.356840 [debug] [MainThread]: Command `dbt deps` failed at 15:01:20.356578 after 0.03 seconds
+[0m15:01:20.358766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa55aa294e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5586b7ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5586b7b20>]}
+[0m15:01:20.360373 [debug] [MainThread]: Flushing usage events
+[0m09:30:50.351645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4e0fbac80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4debaab60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4debaaad0>]}
+
+
+============================== 09:30:50.364066 | 2ea1b67e-3e52-4803-b965-6892ab7bb61e ==============================
+[0m09:30:50.364066 [info ] [MainThread]: Running with dbt=1.6.18
+[0m09:30:50.366820 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/zakk/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m09:30:50.369816 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/zakk/.dbt')}
+[0m09:30:50.373078 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m09:31:13.204200 [debug] [MainThread]: Starter project path: /home/zakk/anaconda3/envs/dbt/lib/python3.10/site-packages/dbt/include/starter_project
+[0m09:31:13.665340 [info ] [MainThread]: 
+Your new dbt project "lessons" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:31:13.668553 [info ] [MainThread]: Setting up your profile.
+[0m09:34:34.675607 [info ] [MainThread]: Profile lessons written to /home/zakk/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:34:34.677564 [debug] [MainThread]: Command `dbt init` succeeded at 09:34:34.677343 after 224.37 seconds
+[0m09:34:34.678594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4e0fbac80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4dd0ab880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4dd0a8d90>]}
+[0m09:34:34.679905 [debug] [MainThread]: Flushing usage events
+[0m09:38:00.574513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f041fd92cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f041d9aac20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f041d9aaad0>]}
+
+
+============================== 09:38:00.576963 | c3ae7635-8f03-457c-be59-e11d2ed1891a ==============================
+[0m09:38:00.576963 [info ] [MainThread]: Running with dbt=1.6.18
+[0m09:38:00.577742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/zakk/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --config-dir', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:38:00.578883 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/zakk/.dbt
+[0m09:38:00.579948 [debug] [MainThread]: Command `dbt debug` succeeded at 09:38:00.579809 after 0.02 seconds
+[0m09:38:00.581449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f041fd92cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f041d9aabf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f041d9aabc0>]}
+[0m09:38:00.582349 [debug] [MainThread]: Flushing usage events
